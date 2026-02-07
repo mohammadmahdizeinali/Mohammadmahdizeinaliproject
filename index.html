@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>figma</title>
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="./public/css/main.css">
 <link rel="stylesheet" href="./node_modules/mdb-ui-kit/css/mdb.min.css">
 
 </head>
@@ -60,7 +60,7 @@
     <a href="./pricing.html" class="block">Pricing</a>
     <a href="#" class="block">FAQ</a>
     <a href="#" class="block">Blog</a>
-    <a href="#" class="block border border-white px-4 py-2 rounded-full mt-2">Contact us</a>
+   
   </div>
 </header>
 <!--header-->
@@ -91,8 +91,8 @@
     </div>
 
     <!-- تصویر سمت راست -->
-    <div class="flex justify-center">
-      <img src="./image/menu/Illustration.svg" alt="Web workflow illustration" class="w-full max-w-xl">
+    <div class="flex justify-center ">
+      <img src="./image/menu/Illustration.svg" alt="Web workflow illustration" class="w-full max-w-xl hover:scale-110 duration-300">
     </div>
 
   </div>
@@ -120,7 +120,7 @@
     <!-- مراحل کاری سمت راست -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
       <!-- مرحله ۱ -->
-      <div>
+      <div class="hover:scale-110 duration-300">
         <h3 class="text-blue-900 font-bold text-3xl mb-4">
           <img src="./image/menu/01.svg" alt="" class="w-16 h-16">
           straregy
@@ -131,7 +131,7 @@
       </div>
 
       <!-- مرحله ۲ -->
-      <div>
+      <div class="hover:scale-110 duration-300">
         <h3 class="text-blue-900 font-bold text-3xl mb-4">
           <img src="./image/menu/02.png" alt="" class="w-16 h-16">
           Wireframing
@@ -143,7 +143,7 @@
       </div>
 
       <!-- مرحله ۳ -->
-      <div>
+      <div class="hover:scale-110 duration-300">
         <h3 class="text-blue-900 font-bold text-3xl mb-4">
           <img src="./image/menu/03.png" alt="" class="w-16 h-16">
           disegn
@@ -154,7 +154,7 @@
       </div>
 
       <!-- مرحله ۴ -->
-      <div>
+      <div class="hover:scale-110 duration-300">
         <h3 class="text-blue-900 font-bold text-3xl mb-4">
           <img src="./image/menu/04.png" alt="" class="w-16 h-16">
           denelopment
@@ -172,58 +172,42 @@
 
 
 
-<!--View our projects-->
-<section class="bg-white px-6 py-16">
-  <div class="max-w-7xl mx-auto">
-    
-    <!-- عنوان و لینک بالا -->
-    <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
-      <h2 class="text-3xl md:text-5xl font-bold text-blue-900">View our projects</h2>
-      <a href="#" class="text-blue-600 font-medium hover:underline mt-4 md:mt-0 text-sm md:text-base">
-        View More →
+<!-- start content -->
+  <div class="flex xs:flex-col md:flex-row gap-5 p-[30px_20px] bg-white">
+    <div class="group xs:w-[100%] md:w-[58%] h-[420px] xs:h-[420px] sm:h-[550px] md:h-[600px] lg:h-[600px] xl:h-[600px] xxl:h-[600px] bg-[url(../../image/mimder/p-1.png)] bg-cover bg-center bg-no-repeat relative overflow-hidden">
+      <div class="w-[50%] h-[100%] bg-[linear-gradient(134deg,rgba(28,30,83,0.3)_0%,rgba(28,30,83,0.8)_43%,rgba(28,30,83,1)_100%)] flex flex-col justify-end gap-2.5 duration-300 absolute left-[-50%] group-hover:left-[0] p-[20px]">
+      <p class="workhub w-[100%] font-semibold text-white text-base xs:text-base sm:text-xl md:text-xxl lg:text-xxl xl:text-xxl xxl:text-xxl leading-9 p-[5px_10px] xs:p-[5px_2px] sm:p-[5px_10px] md:p-[10px_20px] lg:p-[10px_20px] xl:p-[10px_20px] xxl:p-[10px_20px] font-[poppins]">
+        Workhub office Webflow Webflow Design
+      </p>
+      <p class="w-[100%] opacity-80 font-normal text-white text-xs xs:text-xs sm:text-base md:text-base lg:text-base xl:text-base xxl:text-base leading-7 p-[5px_10px] xs:p-[5px_2px] sm:p-[5px_10px] md:p-[10px_20px] lg:p-[10px_20px_90px] xl:p-[10px_20px_90px] xxl:p-[20px_30px_20px_20px] font-[poppins]">
+        Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam
+      </p>
+      <a href="" class="project font-medium text-[#FCD980] text-xs xs:text-xs sm:text-xs md:text-base lg:text-base xl:text-base xxl:text-base leading-7 no-underline p-[5px_10px] xs:p-[5px_2px] sm:p-[5px_10px] md:p-[10px_20px] lg:p-[10px_20px] xl:p-[10px_20px] xxl:p-[10px_20px] transition duration-500 hover:text-[#f6b309] hover:underline [&_svg]:hover:fill-[#f6b309] flex flex-row gap-[5px] items-center">
+        View project
+        <svg width="10" xs:width="10" sm:width="16" md:width="16" lg:width="16" xl:width="16" xxl:width="16" height="10" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#FCD980] transition duration-500">
+          <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" />
+        </svg>
       </a>
-    </div>
-
-    <!-- ساختار دو ستون -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-
-      <!-- ستون سمت چپ: تصویر بزرگ -->
-      <div class="relative rounded-lg overflow-hidden shadow-md">
-  <img src="./image/mimder/p-1.png" alt="Workhub project" class="w-[900px] h-[843px] object-cover" />
-  
-  <!-- فقط نصف سمت راست تصویر -->
-  <div class="absolute top-0 left-0 h-full w-1/2 bg-blue-900 bg-opacity-70 p-6 flex flex-col justify-end text-white">
-    <h3 class="text-lg font-bold mb-2">Workhub office Webflow Design</h3>
-    <p class="text-sm mb-2">
-      Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.
-    </p>
-    <p class="text-xs mb-4">
-      We value human, organizational, and operational intelligence not just artificial.
-    </p>
-    <a href="#" class="text-white font-medium underline text-sm">View project</a>
-  </div>
-</div>
-
-
-      <!-- ستون سمت راست: دو کارت زیر هم -->
-      <div class="grid grid-rows-2 gap-8">
-        
-        <!-- کارت بالا (متنی ساده) -->
-        <div class="relative rounded-lg overflow-hidden shadow-md">
-          <img src="/image/mimder/p-23.png" alt="Church project" class="w-full h-[400px] object-cover" />
-          
-          
-        </div>
-        <!-- کارت پایین با تصویر -->
-        <div class="relative rounded-lg overflow-hidden shadow-md">
-          <img src="/image/mimder/p-3.png" alt="Church project" class="w-full h-[400px] object-cover" />
-          
-
       </div>
     </div>
+    <div class="one xs:w-[100%] md:w-[38%] flex flex-col justify-center items-center gap-[10px]">
+      <div class="img group xs:w-[100%] md:w-[80%] h-[200px] xs:h-[300px] sm:h-[300px] md:h-[300px] lg:h-[300px] xl:h-[300px] xxl:h-[300px] bg-[url(../../image/mimder/p-3.png)] bg-cover bg-center bg-no-repeat relative overflow-hidden">
+        <div class="w-[100%] h-[100%] bg-[linear-gradient(134deg,rgba(28,30,83,0.3)_0%,rgba(28,30,83,0.8)_43%,rgba(28,30,83,1)_100%)] flex flex-col justify-end gap-2.5 duration-300 absolute left-[-100%] group-hover:left-[0] p-[20px]">
+        <p class="unisaas w-[80%] font-bold text-white text-base xs:text-base sm:text-xl md:text-xxl lg:text-xxl xl:text-xxl xxl:text-xxl leading-9 pr-[100px] mt-[70px] font-[poppins]">
+          Unisaas Website Design
+        </p>
+        <a href="" class="w-[80%] h-7 font-medium text-[#FCD980] text-xs xs:text-xs sm:text-xs md:text-base lg:text-base xl:text-base xxl:text-base leading-7 no-underline transition duration-500 hover:text-[#f6b309] hover:underline [&_svg]:hover:fill-[#f6b309] flex flex-row items-center gap-[5px] font-[poppins]">
+          View portfolio
+          <svg width="10" xs:width="10" sm:width="20" md:width="20" lg:width="20" xl:width="20" xxl:width="20" height="10" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-[#FCD980] transition duration-500">
+            <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" />
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="img xs:w-[100%] md:w-[80%] h-[200px] xs:h-[300px] sm:h-[300px] md:h-[284px] lg:h-[284px] xl:h-[284px] xxl:h-[284px] bg-[url(../../image/mimder/p-23.png)] bg-cover bg-center bg-no-repeat"></div>
+    </div>
   </div>
-</section>
-<!--View our projects-->
+  <!-- end content -->
 
 
 <!--1 to 6-->
@@ -243,7 +227,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
       
       <!-- کارت -->
-      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px]">
+      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px] hover:scale-110 duration-300">
         <div class="flex items-start gap-8 h-full">
           <div class="text-left">
             <img src="./image/icon design that/1.png" alt="" class="mb-6 w-9 h-9">
@@ -256,7 +240,7 @@
       </div>
 
       <!-- کارت -->
-      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px]">
+      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px] hover:scale-110 duration-300">
         <div class="flex items-start gap-8 h-full">
           <div class="text-left">
             <img src="./image/icon design that/2.png" alt="" class="mb-6 w-9 h-9">
@@ -269,7 +253,7 @@
       </div>
 
       <!-- کارت -->
-      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px]">
+      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px] hover:scale-110 duration-300">
         <div class="flex items-start gap-8 h-full">
           <div class="text-left">
             <img src="./image/icon design that/3.png" alt="" class="mb-6 w-9 h-9">
@@ -282,7 +266,7 @@
       </div>
 
       <!-- کارت -->
-      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px]">
+      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px] hover:scale-110 duration-300">
         <div class="flex items-start gap-8 h-full">
           <div class="text-left">
             <img src="./image/icon design that/4.png" alt="" class="mb-6 w-9 h-9">
@@ -295,7 +279,7 @@
       </div>
 
       <!-- کارت -->
-      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px]">
+      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px] hover:scale-110 duration-300">
         <div class="flex items-start gap-8 h-full">
           <div class="text-left">
             <img src="./image/icon design that/5.png" alt="" class="mb-6 w-9 h-9">
@@ -308,7 +292,7 @@
       </div>
 
       <!-- کارت -->
-      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px]">
+      <div class="rounded-2xl bg-white p-12 w-[400px] h-[400px] hover:scale-110 duration-300">
         <div class="flex items-start gap-8 h-full">
           <div class="text-left">
             <img src="./image/icon design that/6.png" alt="" class="mb-6 w-9 h-9">
